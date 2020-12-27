@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import '../styles.css';
-import { API } from '../backend';
+// import { API } from '../backend';
 import Base from './Base';
 import Card from './Cart';
 import { getAllProducts } from './helper/coreapicalls';
+
+const API = "https://mern-neww.herokuapp.com/api/"
 
 function Home() {
 
